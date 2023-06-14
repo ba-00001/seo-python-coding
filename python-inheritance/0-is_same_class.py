@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Takes in a number n, returns the square of n"""
+
+
 def is_same_class(obj, a_class):
-    '''comments'''
     return type(obj) is a_class
 
 
@@ -11,4 +13,3 @@ def is_same_class(obj, a_class):
 #     "{} is an instance of the class {}".format(a, float.__name__)
 # if is_same_class(a, object):
 #     "{} is an instance of the class {}".format(a, object.__name__)
-
