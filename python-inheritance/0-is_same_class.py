@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-# File: 0-is_same_class.py
-
-def is_same_class(obj, a_class):
-    return type(obj) is a_class
-
-
-# File: 0-main.py
 def is_same_class(obj, a_class):
     return type(obj) is a_class
 
