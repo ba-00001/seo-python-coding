@@ -3,6 +3,7 @@
 
 
 def is_same_class(obj, a_class):
+    """Takes in a number n, returns the square of n"""
     return type(obj) is a_class
 
 
