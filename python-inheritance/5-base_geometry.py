@@ -1,6 +1,16 @@
 #!/usr/bin/python3
 """Module: base_geometry
-"""
+
+This module provides a class called BaseGeometry
+ that serves as a base class for geometry-related operations.
+
+Classes:
+    - BaseGeometry: A base class for geometry-related operations.
+
+Exceptions:
+    - TypeError: Raised when the value is not an integer.
+    - ValueError: Raised when the value is less than or equal to 0.
+    """
 
 
 class BaseGeometry:
