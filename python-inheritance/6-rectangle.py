@@ -15,8 +15,6 @@ Exceptions:
 """
 
 
-from base_geometry import BaseGeometry
-
 class Rectangle(BaseGeometry):
     """
     Rectangle class inherits from the BaseGeometry class and represents a rectangle shape.
@@ -42,3 +40,4 @@ class Rectangle(BaseGeometry):
         self.__height = height
         self.integer_validator("width", self.__width)
         self.integer_validator("height", self.__height)
+
