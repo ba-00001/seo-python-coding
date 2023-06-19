@@ -6,6 +6,7 @@ This module provides a class called BaseGeometry that serves
 as a base class for geometry-related operations.
 """
 
+
 class BaseGeometry:
     """
     A base class for geometry-related operations.
