@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-"""Takes in a number n, returns the square of n"""
-
+"""Module is documented"""
 
 class Rectangle(BaseGeometry):
     """
