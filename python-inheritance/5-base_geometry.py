@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
-Module: base_geometry
+    Module: base_geometry
 
-This module provides a class called BaseGeometry that
- serves as a base class for geometry-related operations.
+    This module provides a class called BaseGeometry that
+     serves as a base class for geometry-related operations.
 """
 
 
