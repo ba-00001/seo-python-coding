@@ -17,6 +17,7 @@ Exceptions:
 
 BaseGeometry = __import__('5-base_geometry').BaseGeometry
 
+
 class Rectangle(BaseGeometry):
     """
     Rectangle class inherits from the BaseGeometry class and represents a rectangle shape.
