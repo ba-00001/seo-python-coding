@@ -3,6 +3,7 @@
 Module:
 """
 
+
 class Rectangle(BaseGeometry):
     """
     Rectangle class inherits from the BaseGeometry class and represents a rectangle shape.
