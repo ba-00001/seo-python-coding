@@ -24,5 +24,6 @@ class Rectangle(BaseGeometry):
         """Module documented"""
         self.__width = width
         self.__height = height
+        super().__init__()  # Call the parent class constructor
         self.integer_validator("width", self.__width)
         self.integer_validator("height", self.__height)
