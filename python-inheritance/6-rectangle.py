@@ -14,6 +14,7 @@ Exceptions:
     - ValueError: Raised when the value is less than or equal to 0.
 """
 
+
 class BaseGeometry:
     """
     A base class for geometry-related operations.
