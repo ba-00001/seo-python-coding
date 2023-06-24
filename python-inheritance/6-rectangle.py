@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 """Module documented"""
 
 
@@ -16,6 +15,7 @@ class BaseGeometry:
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
 
+
 class Rectangle(BaseGeometry):
     """Module documented"""
 
@@ -23,5 +23,5 @@ class Rectangle(BaseGeometry):
         """Module documented"""
         self.__width = width
         self.__height = height
-        self.integer_validator("{}".format(width), self.__width)
-        self.integer_validator("{}".format(height), self.__height)
+        self.integer_validator("width", self.__width)
+        self.integer_validator("height", self.__height)
