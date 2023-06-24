@@ -1,39 +1,21 @@
 #!/usr/bin/python3
-class BaseGeometry:
-    """
-    BaseGeometry class provides a base class for geometric shapes.
+"""
+Module: rectangle
 
-    Methods:
-        - area(): Calculates the area of the geometric shape.
-        - integer_validator(name, value): Validates that a value is an integer and greater than 0.
-    """
+This module provides a class called Rectangle, which inherits
+from the BaseGeometry class. The Rectangle class represents
+a rectangle shape and provides functionality for calculating its area.
 
-    def area(self):
-        """
-        Calculates the area of the geometric shape.
+Classes:
+    - Rectangle: A class representing a rectangle shape.
 
-        Raises:
-            - Exception: When area() is not implemented in the derived class.
-        """
-        raise Exception("area() is not implemented")
+Exceptions:
+    - TypeError: Raised when the value is not an integer.
+    - ValueError: Raised when the value is less than or equal to 0.
+"""
 
-    def integer_validator(self, name, value):
-        """
-        Validates that a value is an integer and greater than 0.
 
-        Args:
-            - name (str): The name of the value.
-            - value (int): The value to be validated.
-
-        Raises:
-            - TypeError: If the value is not an integer.
-            - ValueError: If the value is less than or equal to 0.
-        """
-        if type(value) != int:
-            raise TypeError("{} must be an integer".format(name))
-        if value <= 0:
-            raise ValueError("{} must be greater than 0".format(name))
-
+BaseGeometry = __import__('5-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """
@@ -58,9 +40,5 @@ class Rectangle(BaseGeometry):
         """
         self.__width = width
         self.__height = height
-        super().__init__()  # Call the parent class constructor
-        self.integer_validator("width", self.__width)
-        self.integer_validator("height", self.__height)
-
-
-print(issubclass(Rectangle, BaseGeometry))
+        self.integer_validator("{}".format(width), self.__width)
+        self.integer_validator("{}".format(height), self.__height)
