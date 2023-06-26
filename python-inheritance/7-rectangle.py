@@ -9,7 +9,8 @@ BaseGeometry = __import__('5-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """
-    Rectangle class inherits from the BaseGeometry class and represents a rectangle shape.
+    Rectangle class inherits from the BaseGeometry
+     class and represents a rectangle shape.
 
     Attributes:
         - __width (int): The width of the rectangle.
@@ -47,6 +48,7 @@ class Rectangle(BaseGeometry):
         Returns a string representation of the rectangle.
 
         Returns:
-            - A string describing the rectangle in the format: [Rectangle] <width>/<height>
+            - A string describing the rectangle in
+            the format: [Rectangle] <width>/<height>
         """
         return "[Rectangle] {}/{}".format(self.__width, self.__height)
