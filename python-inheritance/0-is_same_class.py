@@ -7,7 +7,7 @@ def is_same_class(obj, a_class):
     return type(obj) is a_class
 
 
-# a = 1
+# a = python-inheritance
 # if is_same_class(a, int):
 #     "{} is an instance of the class {}".format(a, int.__name__)
 # if is_same_class(a, float):
