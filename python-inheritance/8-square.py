@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-
-"""Module"""
+"""
+    Module:
+"""
 
 
 Rectangle = __import__('7-rectangle.py').Rectangle
