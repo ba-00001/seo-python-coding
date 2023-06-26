@@ -16,7 +16,7 @@ Rectangle = __import__('7-rectangle.py').Rectangle
 
 class Square(Rectangle):
     """
-    Square class inherits from the Rectangle
+    Square class inherits fro_m the Rectangle
      class and represents a square shape.
 
     Methods:
