@@ -10,6 +10,7 @@ Classes:
 - Square: Represents a square shape.
 """
 
+
 Rectangle = __import__('7-rectangle.py').Rectangle
 
 
