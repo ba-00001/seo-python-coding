@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Module: <module_name>
+    Module: <8-square.py>
     This module contains the implementation of
     classes for geometric shapes.
 
