@@ -9,6 +9,7 @@ Classes:
 - Square: Represents a square shape.
 """
 
+
 class BaseGeometry:
     """
     BaseGeometry class provides a base for geometric shapes.
