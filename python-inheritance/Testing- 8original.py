@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-Module: <module_name>
-This module contains the implementation of
-classes for geometric shapes.
+    Module: <8-square.py>
+    This module contains the implementation of
+    classes for geometric shapes.
 
-Classes:
-- BaseGeometry: A base class for geometric shapes.
-- Rectangle: Represents a rectangle shape.
-- Square: Represents a square shape.
+    Classes:
+    - BaseGeometry: A base class for geometric shapes.
+    - Rectangle: Represents a rectangle shape.
+    - Square: Represents a square shape.
 """
 
 
@@ -17,11 +17,11 @@ Rectangle = __import__('7-rectangle.py').Rectangle
 class Square(Rectangle):
 
     """
-    Square class inherits fro_m the Rectangle
+    Square class inherits  the Rectangle
      class and represents a square shape.
 
     Methods:
-        None
+        N/A
 
     Attributes:
         - __size (int): The size of the square.

@@ -1,14 +1,5 @@
 #!/usr/bin/python3
-"""
-    Module: <8-square.py>
-    This module contains the implementation of
-    classes for geometric shapes.
-
-    Classes:
-    - BaseGeometry: A base class for geometric shapes.
-    - Rectangle: Represents a rectangle shape.
-    - Square: Represents a square shape.
-"""
+""" Module"""
 
 
 Rectangle = __import__('7-rectangle.py').Rectangle
